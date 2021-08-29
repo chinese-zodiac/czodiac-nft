@@ -25,7 +25,7 @@ module.exports = {
     }
   },
   etherscan: {
-    apiKey: privateKey.etherscan
+    apiKey: privateKey.bscscan
   },
   namedAccounts: {
     deployer: {
