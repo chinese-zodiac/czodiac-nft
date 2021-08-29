@@ -6,9 +6,15 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CZodiacNFT is ERC721("CZodiacNFT", "CZodiac"), Ownable {
     uint256 public totalSupply;
-    mapping(uint256 => string) tokenURIs;
+    mapping(uint256 => string) public tokenURIs;
+    mapping(address => bool) public minters;
 
-    function mint(string memory tokenURI_) external onlyOwner {
+    modifier onlyMinter {
+        require(minters[msg.sender], "not minter");
+        _;
+    }
+
+    function mint(string memory tokenURI_) external onlyMinter {
         tokenURIs[totalSupply] = tokenURI_;
         _mint(msg.sender, totalSupply);
         totalSupply ++;
@@ -21,5 +27,13 @@ contract CZodiacNFT is ERC721("CZodiacNFT", "CZodiac"), Ownable {
         require(_exists(tokenId), "ERC721Metadata: URI query for nonexistent token");
 
         return tokenURIs[tokenId];
+    }
+
+    function addMinter(address minter) external onlyOwner {
+        minters[minter] = true;
+    }
+
+    function removeMinter(address minter) external onlyOwner {
+        minters[minter] = false;
     }
 }
