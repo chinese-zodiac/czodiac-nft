@@ -6,6 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CZodiacNFT is ERC721Enumerable, Ownable {
     mapping(uint256 => string) public tokenURIs;
+    mapping(uint256 => uint256) public zodiacIds;
     mapping(address => bool) public minters;
 
     constructor() ERC721("CZodiacNFT", "CZodiac") {
@@ -16,9 +17,11 @@ contract CZodiacNFT is ERC721Enumerable, Ownable {
         _;
     }
 
-    function mint(string memory tokenURI_) external onlyMinter {
-        tokenURIs[totalSupply()] = tokenURI_;
-        _mint(msg.sender, totalSupply());
+    function mint(string memory tokenURI_, uint256 zodiacId) external onlyMinter {
+        uint256 mintNumber = totalSupply(); 
+        tokenURIs[mintNumber] = tokenURI_;
+        zodiacIds[mintNumber] = zodiacId;
+        _mint(msg.sender, mintNumber);
     }
 
     /**
