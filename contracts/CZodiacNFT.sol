@@ -1,13 +1,15 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract CZodiacNFT is ERC721("CZodiacNFT", "CZodiac"), Ownable {
-    uint256 public totalSupply;
+contract CZodiacNFT is ERC721Enumerable, Ownable {
     mapping(uint256 => string) public tokenURIs;
     mapping(address => bool) public minters;
+
+    constructor() ERC721("CZodiacNFT", "CZodiac") {
+    }
 
     modifier onlyMinter {
         require(minters[msg.sender], "not minter");
@@ -15,9 +17,8 @@ contract CZodiacNFT is ERC721("CZodiacNFT", "CZodiac"), Ownable {
     }
 
     function mint(string memory tokenURI_) external onlyMinter {
-        tokenURIs[totalSupply] = tokenURI_;
-        _mint(msg.sender, totalSupply);
-        totalSupply ++;
+        tokenURIs[totalSupply()] = tokenURI_;
+        _mint(msg.sender, totalSupply());
     }
 
     /**
