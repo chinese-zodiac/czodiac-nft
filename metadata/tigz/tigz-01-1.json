@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://Qmf5DCUTFaVyiUoWUAEAEvWRivYq46AUYcCxYQpwW2Wyjc",
+    "name": "Moon Voyage Tiger",
+    "description": "Fly high and reach the stars.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 1
+        }
+    ]
+}

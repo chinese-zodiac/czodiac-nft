@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://Qmb8Lz7Mfjy83ru1snh6ZtGMWRsa6GrJfhQr99MrgRZsBt",
+    "name": "The Secret Vendor",
+    "description": "Hey...PSSSt...Wann buy my goods?",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 1
+        }
+    ]
+}

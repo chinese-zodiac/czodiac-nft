@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmWf37jw4z1S1f4g8cWVzMDSMb6nCDSqrAuSX66GHfjyXz",
+    "name": "Uncle Tigerman",
+    "description": "I want you to buy!",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

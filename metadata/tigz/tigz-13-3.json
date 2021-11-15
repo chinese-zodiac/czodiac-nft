@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmUZdYkdJTMpoVBDQd7pp6m3oGG8GGN1vggLFvnw6hMN5G",
+    "name": "CONGRATZ! Tiger",
+    "description": "Hey hey...don't be sad you did your best.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 3
+        }
+    ]
+}

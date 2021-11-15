@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmRHcvWsZe4Ws3Y4LS5XibeMBKjJbmwZ5PYJmYjVMbUXPG",
+    "name": "Abstract Tiger",
+    "description": "Not the usual colors",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

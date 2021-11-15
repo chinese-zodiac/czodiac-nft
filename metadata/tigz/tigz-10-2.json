@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmSZBEGvHJLfLibmCiX7Joh4y4Ndu3qT5cUj6qeau5TcMv",
+    "name": "FighterZ 2D",
+    "description": "Up Down Left Left COMBO!",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

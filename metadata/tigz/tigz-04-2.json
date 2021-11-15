@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmUEbKu4mNeK1iujXrioNicL1oDz4eUy9o3joYKia7MHAr",
+    "name": "CZodiac FC",
+    "description": "We don't miss. We only make goals!",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

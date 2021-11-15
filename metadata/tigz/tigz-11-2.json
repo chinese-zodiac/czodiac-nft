@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmRv7SgiV9WvQRCSARknZsckTVJZ4xkfbGJUmkajeFGfrT",
+    "name": "Minimal Tiger",
+    "description": "Simple things is always the best.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

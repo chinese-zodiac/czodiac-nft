@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmRRSbgSFD7pkRnkYMpHLxPYYp2RBJCeC2Bg43W7Cmu8gH",
+    "name": "CZ'o breakfast cereal",
+    "description": "Good to start the day.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmSDwSo14RP8LvF5umF9d8FayVPaf8FMtx2J7rLz1heq7Y",
+    "name": "Admiral Tiger",
+    "description": "Join the CZ fleet and serve under the command of the best admiral of the seas!",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

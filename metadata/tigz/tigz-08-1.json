@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmeBRGHUwqKbNvJiVrVeMv7Ym1Tr4opnA1EMyEXSCxFZT2",
+    "name": "CZ cigarettes",
+    "description": "Have a smoke break.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 1
+        }
+    ]
+}

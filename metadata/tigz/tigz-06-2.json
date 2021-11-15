@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmSnhReK6fwkpRwLVwGo5ibBce3bdxP3ncg3W32cxMNTuk",
+    "name": "Bed time with Tiger",
+    "description": "Go and hug this cute tiger.",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}

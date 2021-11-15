@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmZoBUn1kPDZXjozh5bdXtD6KKAJZ94Y1YGRAbwMdKSCKo",
+    "name": "Tiger Mount",
+    "description": "Go and join in her quest!",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Tiger"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 2
+        }
+    ]
+}
