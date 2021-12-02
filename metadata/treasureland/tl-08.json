@@ -1,0 +1,16 @@
+{
+    "image": "ipfs://QmY8C8xYicS5szcNPju1tEaJjTsewugkJ8U8wC8GEVFTaS",
+    "name": "CZxTL 8",
+    "description": "CZodiac X Treasureland Thanksgiving Giveaway Celebration",
+    "attributes": [ 
+        {
+            "trait_type": "Zodiac", 
+            "value": "Treasureland"
+        }, 
+        {
+            "display_type": "number", 
+            "trait_type": "Number", 
+            "value": 1
+        }
+    ]
+}
